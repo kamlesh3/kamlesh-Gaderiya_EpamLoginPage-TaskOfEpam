@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Add icon library -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>EPAMLOGINPAGE</title>
+    <link rel="stylesheet" type="css/text href=" mystyle.css ">
+
+
+
+    <style>
+        body 
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+         form 
+         {
+             /*border: 3px solid #f1f1f1;*/
+             text-align: center;
+         }
+
+         * {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left: 70px;
+  margin-top: 22px;
+}
+.input-container:nth-child(1) {
+    margin-bottom: -14px;
+}
+
+        .container {
+            height: 560px;
+            width: 350px;
+            border-right: 5px solid rgba(70, 62, 62, 0.911);
+            border-bottom: 2px solid black;
+            text-align: center;
+            margin-top: 30px;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 12px;
+        }
+
+        .topnav {
+            height: 35px;
+            width: 100%;
+            background-color: rgb(34, 156, 197);
+            font-size: 20px;
+            font-weight: 200;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .topnav span {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            /*padding: 14px 16px;*/
+            margin-top: 5px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        
+        .topnav-centered span {
+            float: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin-top: -1px;
+        }
+        
+        .topnav-right {
+            float: right;
+        }
+        
+        .icon {
+  padding: 7px;
+  background-color: rgb(238, 232, 232);
+  color: rgb(94, 77, 77);
+  min-width: 50px;
+  text-align: center;
+}
+.icon1 {
+  color: black;
+  margin-left: -200px;
+  float: left;
+}
+.input-field {
+  width: 75%;
+  padding: 7px;
+  outline: none;
+  margin-left: -50px;
+}
+/* Set a style for the submit button */
+.bottom {
+  background-color: rgb(34, 156, 197);
+  color: white;
+  padding: 10px;
+  border: 1px solid  rgb(34, 156, 197);
+  border-radius: 10px;
+  cursor: pointer;
+  width: 91%;
+  opacity: 0.9;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  margin-left: 17px;
+  margin-left: 17px;
+  margin-top: 29px;
+  margin-bottom: -26px;     
+text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+span.regist {
+    float: right;
+    margin-top: 38px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  margin-right: 13px;
+ 
+}
+span.footp {
+  float: left;
+  margin-top: 38px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  margin-left: 13px;
+ 
+}
+
+p:before {
+  content: " ";
+    border: 1px inset rgb(75, 71, 71);
+    position: fixed;
+    width: 10%;
+    top: 52%;
+    left: 485px;
+    margin-top: -10px;
+}
+
+p:after {
+  content: " ";
+    border: 1px inset rgb(75, 71, 71);
+    width: 10%;
+    position: fixed;
+    top: 52%;
+    right: 485px;
+    margin-top: -10px;
+}
+p {
+    margin-top: 95px;
+    margin-bottom: 10px;
+}
+.col {
+  float: left;
+  width: 100%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 10px;
+}
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+.epam {
+  background-color: goldenrod;
+  color: white;
+}
+.btn {
+  width: 130%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+  margin-left: -33px;
+}
+.btn:nth-child(1) {
+  margin-top: 15px;
+}
+.btn:nth-child(3) {
+  margin-top: 40px;
+}
+/*top bar left side image style*/
+.imp {
+  margin-left: 3px;
+  margin-top: 10px;
+  background-color: rgb(34, 156, 197);
+}
+
+</style>
+
+</head>
+
+<body>
+    <body>
+
+<center>
+
+
+<div class="container ">
+
+
+<!------------For top bar---------------->
+ <div class="topnav ">
+
+        <!-- Centered link -->
+        <div class="topnav-centered ">
+            <span href="#home " class="active ">Sign in</span>
+        </div>
+
+        <!-- Left-aligned links (default) -->
+        <span class="imp "><img src="pep.jpg " width=" 20px " height=" 20px " alt=" pep "></span>
+
+    <!-- Right-aligned links -->
+    <div class="topnav-right ">
+      <span class="fa fa-close fa-fw "></span>
+    </div>
+
+    </div>
+<!----------For login form---------------------------------------->
+
+<form action="/action_page.php " method="post ">
+        <div class="input-container ">
+            <input class="input-field " type="text " placeholder="mail@example.com " name="email ">
+            <i class="fa fa-envelope icon "></i>
+        </div>
+
+        <div class="input-container ">
+            <input class="input-field " type="password " placeholder="password " name="psw ">
+            <i class="fa fa-lock icon "></i>
+        </div>
+        <input type="submit " value=" SIGN IN " class="bottom ">
+        <span class=" footp ">Forgot your password?</span>
+        <span class="regist ">Register!</span>
+
+
+        <!---html code for text in between lines--->
+
+        <p>OR</p>
+
+        <div class="col ">
+            <a href="https://www.facebook.com/EPAM.Global " class="fb btn ">
+                <i class="fa fa-facebook fa-fw "></i>
+            </a>
+            <a href="https://www.epam.com/ " class="google btn ">
+                <i class="fa fa-google fa-fw "></i>
+            </a>
+            <a href="https://login.epam.com/adfs/ls/idpinitiatedsignon/ " class="epam btn ">
+                < EPAM LOGIN>
+            </a>
+            </a>
+        </div>
+</form>
+    </div>
+</center>
+ </body>
+
+</html>
+
+</html>
